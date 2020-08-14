@@ -54,6 +54,7 @@ Step 2: Download https://pjreddie.com/media/files/darknet53.conv.74
  to start training the model initially. It is initial YOLO weights for training custom data.
 Place this file  in “Dark”.
 Step 3: Now open the google Colab notebook and execute the code to begin training.
+https://colab.research.google.com/drive/1KQez3USRG77B17UQtijZCPTqX_9sZOCW?usp=sharing
 
 5.	Results:
 We see the predicted image, mAP calculation after every 1000 iterations and a chart indicating average loss, mAP and iterations. 
