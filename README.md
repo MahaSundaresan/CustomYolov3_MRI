@@ -35,18 +35,21 @@ That is, 21 for custom dataset with 2 classes and 18 for custom dataset with 1 c
 Optional: Update hyperparameter values in the .cfg for better results.
 
 4.	Model Training and Inference:
+
 Step 1: Create a folder “Dark” in your google drive.
-1.	Create the following folders –
- backup (the weights generated during training will get updated here),
-cuDNN and bin.
-2.	Download the following folders from this repository and place it in your local “Dark”: 
-img 
-obj.data
-obj.names
-obj.txt
-test.txt
-train.txt
-yolov3.cfg
+
+       1.	Create the following folders –
+          backup (the weights generated during training will get updated here),
+          cuDNN and 
+          bin.
+        2.	Download the following folders from this repository and place it in your local “Dark”: 
+            img 
+            obj.data
+            obj.names
+            obj.txt
+            test.txt
+            train.txt
+            yolov3.cfg
 Step 2: Download https://pjreddie.com/media/files/darknet53.conv.74
  to start training the model initially. It is initial YOLO weights for training custom data.
 Place this file  in “Dark”.
