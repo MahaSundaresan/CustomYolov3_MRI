@@ -1,0 +1,5 @@
+classes= 2
+train = /content/gdrive/My\ Drive/Dark/train.txt
+test = /content/gdrive/My\ Drive/Dark/test.txt
+names = /content/gdrive/My\ Drive/Dark/obj.names
+backup= /content/gdrive/My\ Drive/Dark/backup/
