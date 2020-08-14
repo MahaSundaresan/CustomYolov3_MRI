@@ -11,6 +11,7 @@ Since, the MRI images are Protected Health Information, I have not uploaded MRI 
 The liver images were shared by the Radiology department at UW Madison.
 The image dataset with man and cycle were shared as a part of assignment in CS766 Computer Vision.
 Augmentation of the available image dataset by performing rotation by 45 degrees, 90 degrees, 180 degrees and addition of gaussian noise is done to get at least 100 images to begin the training. 
+
 Refer the data_augmentation.ipynb 
 Download the Walking person folder and run the notebook.
 Else use your image dataset folder and change the folder path in the notebook (Line 42 and 73) before execution. You can generate as many images as you want by changing the number at Line 44. (Set as 25 at present).
@@ -22,7 +23,7 @@ Step 1: The data should be labeled in the Darknet format. I used LabelImg (https
 2.	The first number corresponds to the class. The class numbers are zero-indexed (starts from 0). That is, 0 corresponds to man and 1 corresponds to cycle.
 3.	The following 4 numbers are the normalized box coordinates ranging between 0 and 1. It indicates x_center, y_center, width and height. (If the boxes are in pixels, then x_center and width are divided by image width and y_center and height are divided by image height).
  
-Step 2:  Creating train.txt and test.txt files. Each row in these files contain the path to the image. 
+Step 2: Creating train.txt and test.txt files. Each row in these files contain the path to the image. 
   
 Step 3: Creating *.names file to list the class names for our custom data. 
 
@@ -58,3 +59,7 @@ https://colab.research.google.com/drive/1KQez3USRG77B17UQtijZCPTqX_9sZOCW?usp=sh
 
 5.	Results:
 We see the predicted image, mAP calculation after every 1000 iterations and a chart indicating average loss, mAP and iterations. 
+
+Note:
+The img folder contains only 25 images and their corresponding labels due to size restrictions. Its a toy dataset and training can be performed with this too.
+
