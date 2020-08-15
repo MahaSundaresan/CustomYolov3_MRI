@@ -54,6 +54,7 @@ Step 1: Create a folder “Dark” in your google drive.
 Step 2: Download https://pjreddie.com/media/files/darknet53.conv.74
  to start training the model initially. It is initial YOLO weights for training custom data.
 Place this file  in “Dark”.
+
 Step 3: Now open the google Colab notebook and execute the code to begin training.
 https://colab.research.google.com/drive/1KQez3USRG77B17UQtijZCPTqX_9sZOCW?usp=sharing
 
@@ -65,7 +66,11 @@ The img folder contains only 25 images and their corresponding labels due to siz
 
 References:
 [1] https://github.com/ultralytics/yolov3/wiki/Train-Custom-Data
+
 [2] https://github.com/kriyeng/yolo-on-colab-notebook/blob/master/Tutorial_DarknetToColab.ipynb
+
 [3] https://pjreddie.com/darknet/yolo/
+
 [4] https://github.com/AlexeyAB/darknet/
+
 [5] https://github.com/ivangrov/YOLOv3-GoogleColab/blob/master/YOLOv3_GoogleColab.ipynb
