@@ -65,6 +65,7 @@ Note:
 The img folder contains only 25 images and their corresponding labels due to size restrictions. Its a toy dataset and training can be performed with this too.
 
 References:
+
 [1] https://github.com/ultralytics/yolov3/wiki/Train-Custom-Data
 
 [2] https://github.com/kriyeng/yolo-on-colab-notebook/blob/master/Tutorial_DarknetToColab.ipynb
