@@ -64,7 +64,7 @@ We see the predicted image, mAP calculation after every 1000 iterations and a ch
 Note:
 The img folder contains only 25 images and their corresponding labels due to size restrictions. Its a toy dataset and training can be performed with this too.
 
-Executed notebook: Check CustomYOLOv3_2classes.ipynb in this repo.
+Executed notebook: Check CustomYOLOv3_2classes.ipynb
 
 References:
 
